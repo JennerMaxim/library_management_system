@@ -1,0 +1,28 @@
+.form-login{
+    border: 1px solid #6157ff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.form-login input{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #6257ff57;
+    border: none;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.form-login button{
+    background-color: #6157ff;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    height: 45px;
+    cursor: pointer;
+}
