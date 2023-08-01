@@ -8,13 +8,13 @@
   </head>
   <body>
     <center>
-      <form class="form-login" action="">
+      <form class="form-login" action="index.php">
         <input class="email-login" type="email" placeholder="Email" required />
         <br />
         <input class="password-login" type="password" placeholder="password" required />
         <br />
         <button>Login</button>
-        <span>you don't have an account? <a href="register.html">register</a></a></span>
+        <span>Don't have an account? <a href="register.php">register</a></a></span>
       </form>
     </center>
   </body>

@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="assets/style/login.css" />
   </head>
   <body>
     <center>
-      <form class="form-login" action="">
+      <form class="form-login" action="index.php">
         <input type="text" placeholder="First Name" required />
         <input type="text" placeholder="Last Name" required />
         <input class="email-login" type="email" placeholder="Email" required />
@@ -19,8 +19,8 @@
           required
         />
         <input type="password" placeholder="Confirm Password" required />
-        <button>Login</button>
-        <span>do you have an account? <a href="login.html">login</a></span>
+        <button>Register</button>
+        <span>Already have an account? <a href="login.php">login</a></span>
       </form>
     </center>
   </body>

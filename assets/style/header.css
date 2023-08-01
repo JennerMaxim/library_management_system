@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(0, 0, 0, 0.068);
+    margin: 0;
+}
+
+.container .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 15px 5px 10px;
+}
+
+.container .header .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container .header .right .profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container .header .profil img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.container .header .right .profil .name{
+    font-size: larger;
+}
+
+.container .header .right .settings{
+    font-size: 40px;
+    color: #000;
+    cursor: pointer;
+}
+
+.container .header .right .settings .fa-gear{
+    font-size: 30px;
+    color: blue;
+    cursor: pointer;
+}
